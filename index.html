@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Luxstay</title>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="header-top hide-on-mobile-tablet">
+                <div class="header-top-grid grid wide">
+                    <ul class="header-toplist">
+                        <li class="header-top-item">
+                            <a href="" class="header-top-item__link">About</a>
+                        </li>
+                        <li class="header-top-item">
+                            <a href="" class="header-top-item__link">Book Homestay</a>
+                        </li>
+                        <li class="header-top-item">
+                            <a href="" class="header-top-item__link">Host</a>
+                        </li>
+                    </ul>
+                    <div class="header-top-left">
+                        <input type="text" class="header-search" placeholder="Search...">
+                        <span class="header-icon-search">
+                            <i class="header-top-left__icon-search fas fa-search" ></i>
+                        </span>
+                        <a href="" class="header-login">
+                            <i class="header-login__icon-lock fas fa-lock"></i>
+                            <span class="header-login__name">Login</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-middle">
+                <div class="header-middle-grid grid wide">
+                    <div class="header-middle-list">
+                        <div class="header-middle-bar-list">
+                            <label for="midle-bar-check-for" class="header-middle-bar">
+                                <span class="header-middle-bar__icon bar-search-icon-hover-top"></span>
+                                <span class="header-middle-bar__icon"></span>
+                                <span class="header-middle-bar__icon bar-search-icon-hover-bottom"></span>                                
+                            </label>
+                            <input type="checkbox" class="middle-bar-check" hidden id="midle-bar-check-for">
+                            <label for="midle-bar-check-for" class="header-middle-bar-list__overlay"></label>
+                            <div class="middle-bar-all">
+                                <div class="middle-bar-all-flex">
+
+                                    <div class="middle-bar-all-content">
+                                        <div class="middle-bar-search">
+                                            <div class="middle-bar-import">
+                                                <input type="text" class="middle-bar-import__input" placeholder="Search...">
+                                                <button class="middle-bar-import-find">
+                                                    <i class="fas fa-search middle-bar-import-find__icon" ></i>
+                                                </button> 
+                                            </div>
+                                        </div>
+                                        
+                                        <ul class="middle-bar-list-all">
+                                            <li class="middle-bar-list-all-item">
+                                                <a href="" class="middle-bar-list-all-item__link">Home</a>
+                                            </li>
+                                            <li class="middle-bar-list-all-item">
+                                                <a href="" class="middle-bar-list-all-item__link">Hotel Review</a>
+                                            </li>
+                                            <li class="middle-bar-list-all-item">
+                                                <a href="" class="middle-bar-list-all-item__link">Homestay Review</a>
+                                            </li>
+                                            <li class="middle-bar-list-all-item">
+                                                <a href="" class="middle-bar-list-all-item__link">Foods</a>
+                                            </li>
+                                            <li class="middle-bar-list-all-item">
+                                                <a href="" class="middle-bar-list-all-item__link">Culture</a>
+                                            </li>
+                                            <li class="middle-bar-list-all-item">
+                                                <a href="" class="middle-bar-list-all-item__link">Travelholic</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="middle-bar-all-footer">
+                                        <div class="header-middle-social  ">
+                                            <a href="" class="header-middle-social-link header-middle-social-link--footer">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a href="" class="header-middle-social-link header-middle-social-link--footer">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                            <a href="" class="header-middle-social-link header-middle-social-link--footer">
+                                                <i class="fab fa-youtube"></i>
+                                            </a>
+                                            <a href="" class="header-middle-social-link header-middle-social-link--footer">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                        <h4 class="header-middle-all__footer header-middle-all__footer--menu-bar">© 2021 Powered by Luxstay Pte. Ltd. Address: 10 Anson Road, #22-02 International Plaza, Singapore 079903</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h1 class="logo">
+                            <a href="" class="logo-title">Luxstay</a>
+                        </h1>
+                        <div class="header-middle-social hide-on-mobile-tablet">
+                            <a href="" class="header-middle-social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="header-middle-social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="" class="header-middle-social-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="" class="header-middle-social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <label for="tablet-mobile-search-for" class="tablet-mobile-search"><i class="tablet-mobile-search__icon fas fa-search"></i></label>
+                        <input type="checkbox" class="tablet-mobile-search-check" hidden id="tablet-mobile-search-for">
+                        <div class="tablet-search-box">
+                            <label for="tablet-mobile-search-for" class="tablet-search-box-escape">
+                                <!-- <i class="tablet-search-box-escape__icon fas fa-window-close"></i> -->
+                                <i class="tablet-search-box-escape__icon fas fa-times"></i>
+                            </label>
+                            <div class="tablet-search-content">
+                                <input type="text" class="tablet-search-content-input" placeholder="Search...">
+                                <div class="tablet-search-content-link">
+                                    <i class="fas fa-search tablet-search-content-link__icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <nav class="header-nav hide-on-mobile-tablet">
+                <div class="header-nav-grid grid wide">
+                    <ul class="header-nav-list">
+                        <li class="header-nav-item header-nav-item--current">
+                            <a href="" class="header-nav-item-link">home</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="" class="header-nav-item-link">hotel review</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="" class="header-nav-item-link">homestay review</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="" class="header-nav-item-link">foods</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="" class="header-nav-item-link">culture</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="" class="header-nav-item-link">travelholic</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </nav>
+
+
+        </div>
+
+        <div class="app-container">
+            <div class="app-contain-slider ">
+                <div class="app-contain-slider-item" style="background-image: url(https://travel.luxstay.com/wp-content/uploads/2021/11/Da-Lat-is-more-hot-thanks-to-a-series-of.jpg);">
+                    <div class="slider-item-overlay"></div>           
+                    <div class="slider-item-content">
+                        <div  class="slider-item-img-link">
+                            <a href="" class="slider-item__label">HOMESTAY REVIEW</a> 
+                    </div>
+                        <h3 class="slider-item-header">
+                            <a href="" class="slider-item-header__link">Da Lat is more “hot” thanks to a series of beautiful baths from the following 5 homestays</a>
+                        </h3>
+                        <div class="slider-item-footer">
+                            <a href="" class="slider-item-footer-date">
+                                <i class="slider-item-footer-date__clock-icon far fa-clock"></i>
+                                <span class="slider-item-footer-date__detail">OCTOBER 14, 2021</span>
+                            </a>
+                        </div>
+                    </div>           
+                </div>
+                <div class="app-contain-slider-item" style="background-image: url(https://image-us.24h.com.vn/upload/2-2021/images/2021-04-13/1-1618299862-362-width660height914.jpg);">
+                    <div class="slider-item-overlay"></div>           
+                    <div class="slider-item-content">
+                        <div  class="slider-item-img-link">
+                            <a href="" class="slider-item__label">HOTEL REVIEW</a> 
+                    </div>
+                        <h3 class="slider-item-header">
+                            <a href="" class="slider-item-header__link">The most secluded hotel in the world, priced at more than 800 million VND for 3 nights</a>
+                        </h3>
+                        <div class="slider-item-footer">
+                            <a href="" class="slider-item-footer-date">
+                                <i class="slider-item-footer-date__clock-icon far fa-clock"></i>
+                                <span class="slider-item-footer-date__detail">OCTOBER 14, 2021</span>
+                            </a>
+                        </div>
+                    </div>           
+                </div>
+                <div class="app-contain-slider-item" style="background-image: url(https://i.vietgiaitri.com/2020/10/13/vo-streamer-giau-nhat-viet-nam-dang-anh-bikini-cuc-gat-body-xin-det-ma-cha-may-khi-khoe-106-5293844.jpg);">
+                    <div class="slider-item-overlay"></div>           
+                    <div class="slider-item-content">
+                        <div  class="slider-item-img-link">
+                            <a href="" class="slider-item__label">HOTEL REVIEW</a> 
+                    </div>
+                        <h3 class="slider-item-header">
+                            <a href="" class="slider-item-header__link">
+                                In addition to Six Senses, coming to Nha Trang must have a ‘luxury’ resort at the following resort</a>
+                        </h3>
+                        <div class="slider-item-footer">
+                            <a href="" class="slider-item-footer-date">
+                                <i class="slider-item-footer-date__clock-icon far fa-clock"></i>
+                                <span class="slider-item-footer-date__detail">OCTOBER 14, 2021</span>
+                            </a>
+                        </div>
+                    </div>           
+                </div>
+                <div class="app-contain-slider-item" style="background-image: url(https://travel.luxstay.com/wp-content/uploads/2021/11/1635817791_231_2-beautiful-affordable-Phu-Quoc-resorts-should-consider-for-a.jpg);">
+                    <div class="slider-item-overlay"></div>           
+                    <div class="slider-item-content">
+                        <div  class="slider-item-img-link">
+                            <a href="" class="slider-item__label">HOTEL REVIEW</a> 
+                    </div>
+                        <h3 class="slider-item-header">
+                            <a href="" class="slider-item-header__link">2 beautiful, affordable Phu Quoc resorts should consider for a vacation</a>
+                        </h3>
+                        <div class="slider-item-footer">
+                            <a href="" class="slider-item-footer-date">
+                                <i class="slider-item-footer-date__clock-icon far fa-clock"></i>
+                                <span class="slider-item-footer-date__detail">OCTOBER 14, 2021</span>
+                            </a>
+                        </div>
+                    </div>           
+                </div>
+                <div class="app-contain-slider-item" style="background-image: url(https://afamilycdn.com/150157425591193600/2020/10/13/12104540212166096554065058827340305590817657o-16025759385941104297369.jpg);">
+                    <div class="slider-item-overlay"></div>           
+                    <div class="slider-item-content">
+                        <div  class="slider-item-img-link">
+                            <a href="" class="slider-item__label">HOTEL REVIEW</a> 
+                    </div>
+                        <h3 class="slider-item-header">
+                            <a href="" class="slider-item-header__link">Movenpick Resort Waverly Phu Quoc creates miracles at Haute Grandeur Global 2021</a>
+                        </h3>
+                        <div class="slider-item-footer">
+                            <a href="" class="slider-item-footer-date">
+                                <i class="slider-item-footer-date__clock-icon far fa-clock"></i>
+                                <span class="slider-item-footer-date__detail">OCTOBER 14, 2021</span>
+                            </a>
+                        </div>
+                    </div>           
+                </div>
+                <div class="app-contain-slider-item" style="background-image: url(https://travel.luxstay.com/wp-content/uploads/2021/11/1636933304_980_Da-Lat-is-more-hot-thanks-to-a-series-of.jpg);">
+                    <div class="slider-item-overlay"></div>           
+                    <div class="slider-item-content">
+                        <div  class="slider-item-img-link">
+                            <a href="" class="slider-item__label">HOTEL REVIEW</a> 
+                    </div>
+                        <h3 class="slider-item-header">
+                            <a href="" class="slider-item-header__link">The dirtiest hotel in New York, there have been 9 deaths</a>
+                        </h3>
+                        <div class="slider-item-footer">
+                            <a href="" class="slider-item-footer-date">
+                                <i class="slider-item-footer-date__clock-icon far fa-clock"></i>
+                                <span class="slider-item-footer-date__detail">OCTOBER 14, 2021</span>
+                            </a>
+                        </div>
+                    </div>           
+                </div>
+               
+               
+            </div>
+            <div class="grid wide">
+                <div class="row app-product-item-margin">
+                    <div class="col l-4 m-4 c-6">
+                        <div class="app-product-item">
+                            <a href="" class="app-product-item-img-link">
+                                    <div class="app-product-item__label">HOTEL REVIEW</div>
+                                    <img class="app-product-item__background" src="./assets/img/app-contain/songda.jpg" alt="">
+                            </a>
+                                <div class="app-product-content">
+                                    <h3 class="app-product-header">
+                                        <a href="" class="app-product-header__link">Cam Ranh Riviera 5-star resort is eligible to reopen</a>
+                                    </h3>
+                                    <p class="app-product-item-discription">Cam Ranh Riviera Beach Resort & Spa (5-star resort of Crystal Bay Group) officially welcomes visitors from October 16. Cam Ranh Riviera welcomes visitors back from October 16. This is the time for you and your loved </p>
+                                    <div class="app-product-footer">
+                                        <span class="app-product-footer-author">
+                                            <a href="" class="app-product-footer__by">BY CHÚC YÊN</a>
+                                        </span> 
+                                        <a href="" class="app-product-footer-date">
+                                            <i class="app-product-footer-date__clock-icon far fa-clock"></i>
+                                            <span class="app-product-footer-date__detail">OCTOBER 14, 2021</span>
+                                        </a>
+                                    </div>
+                                </div>           
+                        </div>                   
+                    </div>
+                    <div class="col l-4 m-4 c-6">
+                        <div class="app-product-item">
+                            <a href="" class="app-product-item-img-link">
+                                    <div class="app-product-item__label">HOTEL REVIEW</div>
+                                    <img class="app-product-item__background" src="./assets/img/app-contain/condao.jpg" alt="">
+                            </a>
+                                <div class="app-product-content">
+                                    <h3 class="app-product-header">
+                                        <a href="" class="app-product-header__link">Homestay Da Lat is romantic, the view of the valley of lights is as beautiful as in the MV</a>
+                                    </h3>
+                                    <p class="app-product-item-discription">Happy Yen | Photo: page Em. Our house Homestays with sweet and gentle materials are always very suitable for Da Lat </p>
+                                    <div class="app-product-footer">
+                                        <span class="app-product-footer-author">
+                                            <a href="" class="app-product-footer__by">BY CHÚC YÊN</a>
+                                        </span> 
+                                        <a href="" class="app-product-footer-date">
+                                            <i class="app-product-footer-date__clock-icon far fa-clock"></i>
+                                            <span class="app-product-footer-date__detail">OCTOBER 14, 2021</span>
+                                        </a>
+                                    </div>
+                                </div>           
+                        </div>                   
+                    </div>
+                    <div class="col l-4 m-4 c-6">
+                        <div class="app-product-item">
+                            <a href="" class="app-product-item-img-link">
+                                    <div class="app-product-item__label">HOMESTAY REVIEW</div>
+                                    <img class="app-product-item__background" src="./assets/img/app-contain/newyork-hotel.jpg" alt="">
+                            </a>
+                                <div class="app-product-content">
+                                    <h3 class="app-product-header">
+                                        <a href="" class="app-product-header__link">4 resorts for a dream vacation in Binh Thuan</a>
+                                    </h3>
+                                    <p class="app-product-item-discription">Besides the poetic seascape, Binh Thuan is also an ideal resort with many high-class resorts, with international standard facilities in a beautiful natural space. </p>
+                                    <div class="app-product-footer">
+                                        <span class="app-product-footer-author">
+                                            <a href="" class="app-product-footer__by">BY MỸ XUỒI</a>
+                                        </span> 
+                                        <a href="" class="app-product-footer-date">
+                                            <i class="app-product-footer-date__clock-icon far fa-clock"></i>
+                                            <span class="app-product-footer-date__detail">OCTOBER 14, 2021</span>
+                                        </a>
+                                    </div>
+                                </div>           
+                        </div>                   
+                    </div>
+                    <div class="col l-4 m-4 c-6">
+                        <div class="app-product-item">
+                            <a href="" class="app-product-item-img-link">
+                                    <div class="app-product-item__label">HOTEL REVIEW</div>
+                                    <img class="app-product-item__background" src="./assets/img/app-contain/bear-cave.jpg" alt="">
+                            </a>
+                                <div class="app-product-content">
+                                    <h3 class="app-product-header">
+                                        <a href="" class="app-product-header__link">Pooh Bear Cave Hotel in real life in the UK</a>
+                                    </h3>
+                                    <p class="app-product-item-discription">In the UK, there is a unique Pooh bear cave hotel, identical to the illustrations in the cartoon and classic literary works. </p>
+                                    <div class="app-product-footer">
+                                        <span class="app-product-footer-author">
+                                            <a href="" class="app-product-footer__by">BY NHÂN HÀ</a>
+                                        </span> 
+                                        <a href="" class="app-product-footer-date">
+                                            <i class="app-product-footer-date__clock-icon far fa-clock"></i>
+                                            <span class="app-product-footer-date__detail">OCTOBER 14, 2021</span>
+                                        </a>
+                                    </div>
+                                </div>           
+                        </div>                   
+                    </div>
+                    <div class="col l-4 m-4 c-6">
+                        <div class="app-product-item">
+                            <a href="" class="app-product-item-img-link">
+                                    <div class="app-product-item__label">HOMESTAY REVIEW</div>
+                                    <img class="app-product-item__background" src="./assets/img/app-contain/secluded-hotel.jpg" alt="">
+                            </a>
+                                <div class="app-product-content">
+                                    <h3 class="app-product-header">
+                                        <a href="" class="app-product-header__link">3 ‘paradise’ resorts in Con Dao for a great trip</a>
+                                    </h3>
+                                    <p class="app-product-item-discription">Join TravelMag to list the most beautiful and impressive resorts and hotels in Con Dao, giving you a more desirable trip. </p>
+                                    <div class="app-product-footer">
+                                        <span class="app-product-footer-author">
+                                            <a href="" class="app-product-footer__by">BY MỸ XUỒI</a>
+                                        </span> 
+                                        <a href="" class="app-product-footer-date">
+                                            <i class="app-product-footer-date__clock-icon far fa-clock"></i>
+                                            <span class="app-product-footer-date__detail">OCTOBER 14, 2021</span>
+                                        </a>
+                                    </div>
+                                </div>           
+                        </div>                   
+                    </div>
+                    <div class="col l-4 m-4 c-6">
+                        <div class="app-product-item">
+                            <a href="" class="app-product-item-img-link">
+                                    <div class="app-product-item__label">HOTEL REVIEW</div>
+                                    <img class="app-product-item__background" src="./assets/img/app-contain/sun-group.jpg" alt="">
+                            </a>
+                                <div class="app-product-content">
+                                    <h3 class="app-product-header">
+                                        <a href="" class="app-product-header__link">Check conditions of Song Da – Van Don tourist accommodation establishments</a>
+                                    </h3>
+                                    <p class="app-product-item-discription">Song Da tourist accommodation establishments meet the minimum conditions of material and technical facilities and services for the type of tourist accommodation in accordance with the provisions of the Law on Tourism. </p>
+                                    <div class="app-product-footer">
+                                        <span class="app-product-footer-author">
+                                            <a href="" class="app-product-footer__by">BY CHÚC YÊN</a>
+                                        </span> 
+                                        <a href="" class="app-product-footer-date">
+                                            <i class="app-product-footer-date__clock-icon far fa-clock"></i>
+                                            <span class="app-product-footer-date__detail">OCTOBER 14, 2021</span>
+                                        </a>
+                                    </div>
+                                </div>           
+                        </div>                   
+                    </div>
+                    
+                </div>
+         
+            </div>
+
+            <div class="product-main">
+                <div class="grid wide">
+                    <div class="row product-main-no-gutters">
+                        <div class="col l-8 m-8 ">
+                            <div class="product-main-list">
+                                <div class="product-main-item ">
+                                    <a href="" class="product-main-img ">
+                                        <div class="product-main__label">HOMESTAY REVIEW</div>
+                                        <img class="product-main__background" src="./assets/img/main-product/1-Da-Lat.jpg" alt="">
+                                    </a>
+                                    <div class="product-main-content ">
+                                        <h3 class="product-main-header">
+                                            <a href="" class="product-main-header__link">Da Lat is more “hot” thanks to a series of beautiful baths from the following 5 homestays</a>
+                                        </h3>
+                                        <div class="product-main-src">
+                                            <span class="product-main-src-author">
+                                                <a href="" class="product-main-src__by">BY MỸ XUỒI</a>
+                                            </span> 
+                                            <a href="" class="product-main-src-date">
+                                                <i class="product-main-src-date__clock-icon far fa-clock"></i>
+                                                <span class="product-main-src-date__detail">NOVEMBER 14, 2021</span>
+                                            </a>
+                                        </div>
+                                        <p class="product-main-discription">Going to Da Lat just to… check in with a beautiful bath at the homestay? You will be convinced, if you spend a little time looking through the following series of “proofs”. </p>
+                                        <a href="" class="product-main-btn">READ MORE</a>
+                                    </div>                  
+                                </div>
+                                <div class="product-main-item ">
+                                    <a href="" class="product-main-img ">
+                                        <div class="product-main__label">HOTEL REVIEW</div>
+                                        <img class="product-main__background" src="./assets/img/main-product/2-The-most-secluded-hotel.jpg" alt="">
+                                    </a>
+                                    <div class="product-main-content ">
+                                        <h3 class="product-main-header">
+                                            <a href="" class="product-main-header__link">The most secluded hotel in the world, priced at more than 800 million VND for 3 nightss</a>
+                                        </h3>
+                                        <div class="product-main-src">
+                                            <span class="product-main-src-author">
+                                                <a href="" class="product-main-src__by">BY CHÚC YÊN</a>
+                                            </span> 
+                                            <a href="" class="product-main-src-date">
+                                                <i class="product-main-src-date__clock-icon far fa-clock"></i>
+                                                <span class="product-main-src-date__detail">NOVEMBER 14, 2021</span>
+                                            </a>
+                                        </div>
+                                        <p class="product-main-discription">The Sheldon Chalet is the most secluded hotel in the world. It is located on the slopes of the Don Sheldon Amphitheater – the valley by the spectacular Ruth Glacier – in Denali National Park, Alaska. Sheldon Chalet Hotel can only be reached by air. </p>
+                                        <a href="" class="product-main-btn">READ MORE</a>
+                                    </div>                  
+                                </div>
+                                <div class="product-main-item ">
+                                    <a href="" class="product-main-img ">
+                                        <div class="product-main__label">HOTEL REVIEW</div>
+                                        <img class="product-main__background" src="./assets/img/main-product/3-Phu-Quoc.jpg" alt="">
+                                    </a>
+                                    <div class="product-main-content ">
+                                        <h3 class="product-main-header">
+                                            <a href="" class="product-main-header__link">2 beautiful, affordable Phu Quoc resorts should consider for a vacations</a>
+                                        </h3>
+                                        <div class="product-main-src">
+                                            <span class="product-main-src-author">
+                                                <a href="" class="product-main-src__by">BY PHƯƠNG LINH</a>
+                                            </span> 
+                                            <a href="" class="product-main-src-date">
+                                                <i class="product-main-src-date__clock-icon far fa-clock"></i>
+                                                <span class="product-main-src-date__detail">NOVEMBER 15, 2021</span>
+                                            </a>
+                                        </div>
+                                        <p class="product-main-discription">To help you save money but still have a great experience, we would like to introduce the following two beautiful and affordable Phu Quoc resorts. </p>
+                                        <a href="" class="product-main-btn">READ MORE</a>
+                                    </div>                  
+                                </div>
+                                <div class="product-main-item ">
+                                    <a href="" class="product-main-img ">
+                                        <div class="product-main__label">HOTEL REVIEW</div>
+                                        <img class="product-main__background" src="./assets/img/main-product/4-Waverly-Phu-Quoc.jpg" alt="">
+                                    </a>
+                                    <div class="product-main-content ">
+                                        <h3 class="product-main-header">
+                                            <a href="" class="product-main-header__link">Movenpick Resort Waverly Phu Quoc creates miracles at Haute Grandeur Global 2021</a>
+                                        </h3>
+                                        <div class="product-main-src">
+                                            <span class="product-main-src-author">
+                                                <a href="" class="product-main-src__by">BY TUẤN ANH</a>
+                                            </span> 
+                                            <a href="" class="product-main-src-date">
+                                                <i class="product-main-src-date__clock-icon far fa-clock"></i>
+                                                <span class="product-main-src-date__detail">NOVEMBER 15, 2021</span>
+                                            </a>
+                                        </div>
+                                        <p class="product-main-discription">At the annual, globally prestigious international award Haute Grandeur Global 2021, Mövenpick Resort Waverly Phu Quoc was honored to be named in 3 prestigious categories. </p>
+                                        <a href="" class="product-main-btn">READ MORE</a>
+                                    </div>                  
+                                </div>
+                                <div class="product-main-item ">
+                                    <a href="" class="product-main-img ">
+                                        <div class="product-main__label">HOTEL REVIEW</div>
+                                        <img class="product-main__background" src="./assets/img/main-product/5-New-Yorks.jpg" alt="">
+                                    </a>
+                                    <div class="product-main-content ">
+                                        <h3 class="product-main-header">
+                                            <a href="" class="product-main-header__link">The dirtiest hotel in New York, there have been 9 deaths</a>
+                                        </h3>
+                                        <div class="product-main-src">
+                                            <span class="product-main-src-author">
+                                                <a href="" class="product-main-src__by">BY MỸ XUỒI</a>
+                                            </span> 
+                                            <a href="" class="product-main-src-date">
+                                                <i class="product-main-src-date__clock-icon far fa-clock"></i>
+                                                <span class="product-main-src-date__detail">NOVEMBER 16, 2021</span>
+                                            </a>
+                                        </div>
+                                        <p class="product-main-discription">The Carter Hotel – the dirtiest hotel in the free country – is located in the lavish Manhattan area, near Times Square. This is a great location, but the hotel does not make a profit from this prime location but goes downhill. </p>
+                                        <a href="" class="product-main-btn">READ MORE</a>
+                                    </div>                  
+                                </div>
+                                <div class="product-main-item ">
+                                    <a href="" class="product-main-img ">
+                                        <div class="product-main__label">HOTEL REVIEW</div>
+                                        <img class="product-main__background" src="./assets/img/main-product/6-the-lantern.jpg" alt="">
+                                    </a>
+                                    <div class="product-main-content ">
+                                        <h3 class="product-main-header">
+                                            <a href="" class="product-main-header__link">Spend more than 4 million to eat in the lantern</a>
+                                        </h3>
+                                        <div class="product-main-src">
+                                            <span class="product-main-src-author">
+                                                <a href="" class="product-main-src__by">BY PHƯƠNG LINH</a>
+                                            </span> 
+                                            <a href="" class="product-main-src-date">
+                                                <i class="product-main-src-date__clock-icon far fa-clock"></i>
+                                                <span class="product-main-src-date__detail">NOVEMBER 16, 2021</span>
+                                            </a>
+                                        </div>
+                                        <p class="product-main-discription">The Tokyo Lantern Dinner will take place at Hoshinoya Hotel, Otemachi, Tokyo from October 13. This is a new form of on-site service, preserving the aesthetics and elegance of a hotel as well as safety during this epidemic season. </p>
+                                        <a href="" class="product-main-btn">READ MORE</a>
+                                    </div>                  
+                                </div>
+                            </div>
+                            <div class="product-main-page">
+                                <a href="" class="product-page-switch  ">
+                                    <i class="product-page-switch__icon fas fa-chevron-left"></i>
+                                </a>
+                                <a href="" class="product-page-switch product-page-switch--current">
+                                    <span class="product-page-switch__num">1</span>
+                                </a>
+                                <a href="" class="product-page-switch">
+                                    <span class="product-page-switch__num">2</span>
+                                </a>
+                                <a href="" class="product-page-switch">
+                                    <span class="product-page-switch__num">3</span>
+                                </a>
+                                <span class="product-page-switch">
+                                    <span class="product-page-switch__num">...</span>
+                                </span>
+                                <a href="" class="product-page-switch">
+                                    <span class="product-page-switch__num">85</span>
+                                </a>
+                                <a href="" class="product-page-switch">
+                                    <i class="product-page-switch__icon fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class=" col l-4 m-4 c-12">
+                            <div class="product-main__tag">
+                                <a href="" class="product-main__tag-link">a beautiful cafe</a>
+                                <a href="" class="product-main__tag-link">Beautiful tourist spot</a>
+                                <a href="" class="product-main__tag-link">Beefsteak</a>
+                                <a href="" class="product-main__tag-link">Cafe</a>
+                                <a href="" class="product-main__tag-link">Da Lat</a>
+                                <a href="" class="product-main__tag-link">Delicious restaurant in Hano</a>
+                                <a href="" class="product-main__tag-link">Good restaurant in Saigon</a>
+                                <a href="" class="product-main__tag-link">Hanoi specialties</a>
+                                <a href="" class="product-main__tag-link">Hue Tourism</a>
+                                <a href="" class="product-main__tag-link">Nice cafe</a>
+                                <a href="" class="product-main__tag-link">Saigon tourism</a>
+                                <a href="" class="product-main__tag-link">Southeast Asia Travel</a>
+                                <a href="" class="product-main__tag-link">Streets cuisine</a>
+                                <a href="" class="product-main__tag-link">Travel around Europe</a>
+                                <a href="" class="product-main__tag-link">Traveling Hanoi</a>
+                                <a href="" class="product-main__tag-link">Travel the world</a>
+                                <a href="" class="product-main__tag-link">Vietnam tourism</a>
+                                <a href="" class="product-main__tag-link">Western specialties</a>
+                                <a href="" class="product-main__tag-link">Winter travel</a>
+                                <a href="" class="product-main__tag-link">Year-end travel</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="footer">
+            <div class="grid wide">
+                <div class="footer-catergory">
+                    <span class="catergory-header">Category</span>
+                    <div class="catergory-list ">
+                        <div class="catergory-list-item">
+                            <a href="" class="catergory-list-link ">Foods </a> 
+                            <span class="catergory-link-number">(372)</span>
+                        </div>
+                        <div class="catergory-list-item">
+                            <a href="" class="catergory-list-link ">Hotel Review </a>
+                            <span class="catergory-link-number">(372)</span>                              
+                        </div>
+                        <div class="catergory-list-item">
+                            <a href="" class="catergory-list-link ">Homestay Review </a>    
+                            <span class="catergory-link-number">(372)</span>                         
+                        </div>
+                        <div class="catergory-list-item">
+                            <a href="" class="catergory-list-link">Travelholic </a>        
+                            <span class="catergory-link-number">(372)</span>                                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-insta row no-gutters">
+                <h1 class="footer-insta-home-page">
+                    <a href="" class="insta-home-page-link">
+                        <i class="fab fa-instagram"></i>
+                        <span class="insta-home-page-link__content">INSTAGRAM</span>
+                    </a>
+                </h1>
+                <div class="col l-1-5 reset m-3 c-3">
+                    <a href="" class="footer-insta-img">
+                        <div class="footer-insta-img__animate"></div>
+                        <img src="./assets/img/insta/img-1.jpg" alt="" class="footer-insta-img__link">
+                    </a>
+                </div>
+                <div class="col l-1-5 reset m-3 c-3">
+                    <a href="" class="footer-insta-img">
+                        <div class="footer-insta-img__animate"></div>
+                        <img src="./assets/img/insta/2-img.jpg" alt="" class="footer-insta-img__link">
+                    </a>
+                </div>
+                <div class="col l-1-5 reset m-3 c-3">
+                    <a href="" class="footer-insta-img">
+                        <div class="footer-insta-img__animate"></div>
+                        <img src="./assets/img/main-product/1-Da-Lat.jpg" alt="" class="footer-insta-img__link">
+                    </a>
+                </div>
+                <div class="col l-1-5 reset m-3 c-3">
+                    <a href="" class="footer-insta-img">
+                        <div class="footer-insta-img__animate"></div>
+                        <img src="./assets/img/main-product/2-The-most-secluded-hotel.jpg" alt="" class="footer-insta-img__link">
+                    </a>
+                </div>
+                <div class="col l-1-5 reset m-3 c-3">
+                    <a href="" class="footer-insta-img">
+                        <div class="footer-insta-img__animate"></div>
+                        <img src="./assets/img/insta/210526810_658597272203273_6158999067444689883_n.jpg" alt="" class="footer-insta-img__link">
+                    </a>
+                </div>
+                <div class="col l-1-5 reset m-3 c-3">
+                    <a href="" class="footer-insta-img">
+                        <div class="footer-insta-img__animate"></div>
+                        <img src="./assets/img/main-product/3-Phu-Quoc.jpg" alt="" class="footer-insta-img__link">
+                    </a>
+                </div>
+                <div class="col l-1-5 reset m-3 c-3">
+                    <a href="" class="footer-insta-img">
+                        <div class="footer-insta-img__animate"></div>
+                        <img src="./assets/img/main-product/4-Waverly-Phu-Quoc.jpg" alt="" class="footer-insta-img__link">
+                    </a>
+                </div>
+                <div class="col l-1-5 reset m-3 c-3">
+                    <a href="" class="footer-insta-img">
+                        <div class="footer-insta-img__animate"></div>
+                        <img src="./assets/img/main-product/5-New-Yorks.jpg" alt="" class="footer-insta-img__link">
+                    </a>                   
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="grid wide footer-bottom-wide">
+                    <div class="footer-bottom-content">
+                        <div class="footer-bottom-social">
+                            <a href="" class=" footer-bottom-social__link">
+                                <i class="footer-bottom-social-link__icon fab fa-facebook-f"></i>
+                            </a>
+                            <a href="" class=" footer-bottom-social__link">
+                                <i class="footer-bottom-social-link__icon fab fa-twitter"></i>
+                            </a>
+                            <a href="" class=" footer-bottom-social__link">
+                                <i class="footer-bottom-social-link__icon fab fa-youtube"></i>
+                            </a>
+                            <a href="" class=" footer-bottom-social__link">
+                                <i class="footer-bottom-social-link__icon fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <h4 class="copy-right">
+                            © 2021 Powered by Luxstay Pte. Ltd. Address: 10 Anson Road, #22-02 International Plaza, Singapore 079903
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.app-contain-slider').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1200,
+                arrows: true,
+                swipe: true,
+                responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                   /*  dots: true */
+                }
+                },
+                {
+                breakpoint: 740,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+                },
+                {
+                breakpoint: 568,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+                            });           
+                        });
+    </script>
+</body>
+</html>
